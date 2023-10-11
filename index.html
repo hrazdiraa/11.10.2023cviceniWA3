@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .logo {
+            float: left;
+        }
+        .logo img {
+            max-height: 100px;
+        }
+        .menu {
+            flex: 1;
+            text-align: right;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .scrollable-content {
+            overflow-y: scroll;
+            height: 400px; /* Adjust the height as needed */
+            padding: 20px;
+        }
+        .content-wrapper {
+            display: flex;
+            align-items: center;
+        }
+        .content-image {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .content-text {
+            flex: 2;
+        }
+        .p {
+            margin: 0 0 1.5em;
+            background-color: #057cf2;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo">
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</header>
+<div class="scrollable-content">
+    <div class="content-wrapper">
+        <div class="content-image">
+            <img src="your-image.jpg" alt="Image">
+        </div>
+        <div class="content-text">
+            <h2>Title</h2>
+            <p class="p">This is some text content on the right side.</p>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="content-image">
+            <img src="your-image.jpg" alt="Image">
+        </div>
+        <div class="content-text">
+            <h2>Title</h2>
+            <p class="p">This is some text content on the right side.</p>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="content-image">
+            <img src="your-image.jpg" alt="Image">
+        </div>
+        <div class="content-text">
+            <h2>Title</h2>
+            <p class="p">This is some text content on the right side.</p>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="content-image">
+            <img src="your-image.jpg" alt="Image">
+        </div>
+        <div class="content-text">
+            <h2>Title</h2>
+            <p class="p">This is some text content on the right side.</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Footer</p>
+</footer>
+</body>
+</html>
